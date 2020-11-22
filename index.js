@@ -1,7 +1,7 @@
 // Require dependencies
 require('dotenv-safe').config();
-const axios = require('axios').default;
-const domains = require('./domains.json').domains;
+import axios from 'axios';
+import { domains } from './domains.json';
 
 // Get our environment variables
 const cfAPIToken = process.env.CF_API_TOKEN;
