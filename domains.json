@@ -1,0 +1,11 @@
+{
+    "domains": [{
+            "name": "example.com",
+            "subdomains": ["blog.example.com", "example.com"]
+        },
+        {
+            "name": "example1.com",
+            "subdomains": ["blog.example1.com", "example1.com"]
+        }
+    ]
+}
