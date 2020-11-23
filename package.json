@@ -1,15 +1,15 @@
 {
-  "name": "cf-ddns",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "axios": "^0.21.0",
-    "dotenv-safe": "^8.2.0"
-  }
+    "name": "cf-ddns",
+    "version": "1.0.0",
+    "description": "Dynamic DNS \"client\" for Cloudflare® DNS",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "yan3321",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^0.21.0",
+        "dotenv-safe": "^8.2.0"
+    }
 }
