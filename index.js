@@ -92,7 +92,7 @@ async function patchDNSRecord(zoneId, dnsRecordId) {
     return new Promise((resolve, reject) => {
         axios.request({
                 url: '/zones/' + zoneId + '/dns_records/' + dnsRecordId,
-                method: 'PUT',
+                method: 'PATCH',
                 baseURL: cfBaseEndpoint,
                 headers: {
                     'Authorization': 'Bearer ' + cfAPIToken,
